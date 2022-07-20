@@ -1,0 +1,14 @@
+[ //we created a data file
+  {
+    "Id": "1",
+    "Title": "Bank App",
+    "Description": "An app for banking transactions"
+  },
+  {
+    "Id": "2",
+    "Title": "GPA Calculator",
+    "Description": "An program that helps students keep track of their GPA"
+  }
+]
+//next we need a method that will ensble the reading of this data
+  // json identify everything inside this [] as an object

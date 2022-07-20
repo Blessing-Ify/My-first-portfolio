@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Project Page";
+}
+
+
+<div class="myContainer">
+
+    <div class="title">
+        <style>
+            h2 {
+                text-align: center;
+            }</style>
+        <h2 text-align: center;>My Projects</h2>
+    </div>
+
+     @foreach (var member in Model)
+        {
+            //<a asp-controller="Home" asp-action="https://github.com/Blessing-Ify" asp-route-userId="@member.Id">
+                <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+        <img src="@member.Images" width="150px" asp-append-version="true" />
+      
+    </div>
+    <div class="col-md-8">
+        <div class="w3-panel w3-card w3-yellow"></div>
+      <div class="card-body">
+        <h5 class="card-title">@member.Title</h5>
+        <p class="card-text">@member.Description</p>
+        <p class="card-text"><small class="text-muted">@member.DateCreated</small></p>
+        <button class="btn btn-outline-primary mt-4" type="submit"><a href="https://github.com/Blessing-Ify" target="_blank">visit</a></button>
+      </div>
+      </div>
+    </div>
+  </div>
+  //</a>
+}
+    </div>
+   
+
+    @*button for navigating to the contact page*@
+<form method="get" asp-action="Contact" asp-controller="Home">
+    <button class="btn btn-outline-primary mt-4" type="submit">Contact Me</button>
+</form>
+
+
+
+
+
+
+   
+
+
+
+
+
+
+

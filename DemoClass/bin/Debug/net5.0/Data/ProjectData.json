@@ -1,0 +1,32 @@
+[ //we created a data file
+  {
+    "Id": "1",
+    "Title": "Bank App",
+    "Description": "An app for banking transactions",
+    "Images": "/image/bank.jpg",
+    "DateCreated": "2nd May, 2022"
+  },
+  {
+    "Id": "2",
+    "Title": "GPA Calculator",
+    "Description": "A program that helps students keep track of their GPA",
+    "Images": "/image/calc.jpg",
+    "DateCreated": "14th June, 2022"
+  },
+  {
+    "Id": "1",
+    "Title": "Bank App",
+    "Description": "An app for banking transactions",
+    "Images": "/image/logo.png",
+    "DateCreated": "2nd May, 2022"
+  },
+  {
+    "Id": "2",
+    "Title": "GPA Calculator",
+    "Description": "A program that helps students keep track of their GPA",
+    "Images": "/image/logo.png",
+    "DateCreated": "2nd May, 2022"
+  }
+]
+//next we need a method that will ensble the reading of this data
+  // json identify everything inside this [] as an object
